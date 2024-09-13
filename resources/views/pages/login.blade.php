@@ -75,20 +75,26 @@
                             <x-input-form
                                 name="email"
                                 type="email"
-                                :label="__('model.user.email')"
+                                label="Email Pengguna"
                             />
                         </div>
                         <div class="mb-3">
                             <x-input-form
                                 name="password"
                                 type="password"
-                                :label="__('model.user.password')"
+                                label="Kata Sandi"
                             />
                         </div>
                         <div class="mt-2">
                             <button class="btn btn-primary d-grid w-100" type="submit">{{ __('menu.auth.login') }}</button>
                         </div>
                     </form>
+                    <div class="d-flex justify-content-center">
+                        © Copyright
+                        <script>
+                            document.write(new Date().getFullYear());
+                        </script>
+                    </div>
                 </div>
             </div>
             <!-- /Register -->

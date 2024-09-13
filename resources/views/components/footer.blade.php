@@ -6,7 +6,7 @@
                 document.write(new Date().getFullYear());
             </script>
             , {{ __('footer.made_by') }}
-            <a href="https://bengkaliskab.go.id" target="_blank" class="footer-link fw-bolder">Elektronik Surat Puskesmas</a>
+            <a href="https://e-surmas.bengkaliskab.go.id" target="_blank" class="footer-link fw-bolder">Elektronik Surat Puskesmas</a>
         </div>
     </div>
 </footer>
