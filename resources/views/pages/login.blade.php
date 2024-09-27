@@ -90,7 +90,7 @@
                         </div>
                     </form>
                     <div class="d-flex justify-content-center">
-                        © Copyright ya lah ya
+                        © Copyright
                         <script>
                             document.write(new Date().getFullYear());
                         </script>
